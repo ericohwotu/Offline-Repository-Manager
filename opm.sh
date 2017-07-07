@@ -4,7 +4,7 @@
 if [ $1 == "--create" ]
   then
     ./opm-create $2 $3
-elif [ $1 == "--adds" ]
+elif [ $1 == "--add" ]
   then
     ./opm-add $2 $3 $4
 elif [ $1 == "--root" ] 
