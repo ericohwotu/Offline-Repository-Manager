@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Refer to help for usage
-
+#this is a commment
 if [ $1 == "--create" ]
   then
     ./opm-create $2 $3
