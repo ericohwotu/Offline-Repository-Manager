@@ -10,7 +10,7 @@ elif [ $1 == "--add" ]
 elif [ $1 == "--root" ] 
   then
     ./opm-root $2 $3
-elif [ $1 == "--source" ]
+elif [ $1 == "--sources" ]
   then
     ./opm-srcs $2 $3
 elif [ $1 == "--save" ]
