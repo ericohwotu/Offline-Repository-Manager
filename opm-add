@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo you are triying to add a file to the following project
+echo $2 to $1
