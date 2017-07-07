@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo you have tried to tell me to create the following projects
+echo $1
