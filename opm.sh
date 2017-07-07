@@ -12,7 +12,7 @@ elif [ $1 == "--root" ]
     ./opm-root $2 $3
 elif [ $1 == "--source" ]
   then
-    ./opm-src $2 $3
+    ./opm-srcs $2 $3
 elif [ $1 == "--save" ]
   then
     ./opm-save $2
