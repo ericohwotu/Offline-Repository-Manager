@@ -4,7 +4,7 @@
 if [ $1 == "--create" ]
   then
     ./opm-create $2 $3
-elif [ $1 == "--add" ]
+elif [ $1 == "--adds" ]
   then
     ./opm-add $2 $3 $4
 elif [ $1 == "--root" ] 
@@ -12,7 +12,7 @@ elif [ $1 == "--root" ]
     ./opm-root $2 $3
 elif [ $1 == "--sources" ]
   then
-    ./opm-srcs $2 $3
+    ./opm-src $2 $3
 elif [ $1 == "--save" ]
   then
     ./opm-save $2
